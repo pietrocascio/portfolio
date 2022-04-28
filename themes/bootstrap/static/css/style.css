@@ -14,7 +14,11 @@ nav {
     flex-direction: column;
 }
 
-nav > a {
+nav ul {
+    width: 100%;
+}
+
+nav  div > ul > li {
     flex: 1;
     text-align: center;
     text-decoration: none;
