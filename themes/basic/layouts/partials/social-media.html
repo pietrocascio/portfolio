@@ -1,0 +1,7 @@
+<section class="social-media">
+  {{ range .Site.Data.socialmedia.accounts }}
+  <div class="profile">
+    <a href="{{ .url }}">{{ .name }}</a>
+  </div>
+  {{ end }}
+</section>

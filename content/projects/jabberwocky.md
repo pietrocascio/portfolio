@@ -1,14 +1,14 @@
 ---
 title: "Jabberwocky"
 draft: false
+image: //via.placeholder.com/640x150
+alt_text: "Jabberwocky screenshot"
+summary: "Summary of the Jabberwocky project"
+tech_used:
+  - Java
+  - Spring Boot
+  - JPA/Hibernate
+  - Redis
 ---
 
-![alt](//via.placeholder.com/640x150)
-
-project Jabberwocky
-
-### Tech used
-* Java
-* Spring Boot
-* JPA/Hibernate
-* Redis 
+Description for project Jabberwocky

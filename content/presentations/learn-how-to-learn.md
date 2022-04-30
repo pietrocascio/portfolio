@@ -1,9 +1,10 @@
 ---
 title: "Learn How to Learn"
+keywords:
 draft: false
 ---
 
-## Presentation name
+## Learn How to Learn
 
 ![alt](//via.placeholder.com/640x150)
 

@@ -8,7 +8,14 @@
 	</section>
 	<section class="project">
 		<h2>{{ .Title }}</h2>
+		<img src="{{ .Params.image}}" alt="{{ .Params.alt_text }}" width="350px">
 		{{ .Content }}
+		<h3>Tech used:</h3>
+		<ul>
+			{{ range .Params.tech_used }}
+			<li>{{ . }}</li>
+			{{ end }}
+		</ul>
 	</section>
 </div>
 {{ end }}

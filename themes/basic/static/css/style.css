@@ -21,10 +21,51 @@ nav > a {
     color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
-    nav { flex-direction: row; }
+.oss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-    .project-container { display: flex; }
-    .project-container .project-list { width: 20%; }
-    .project-container .project { flex: 1; }
+.oss article {
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 5px #ddd;
+    margin: 0.5%;
+
+    padding: 0.5%;
+    width: 30%;
+}
+
+div.profile {
+    display: inline-block;
+    width: 10%;
+}
+
+div.profile > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer { padding: 5px; }
+footer small {
+    display: block;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .project-container {
+        display: flex;
+    }
+
+    .project-container .project-list {
+        width: 20%;
+    }
+
+    .project-container .project {
+        flex: 1;
+    }
 }

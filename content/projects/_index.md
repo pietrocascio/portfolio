@@ -1,5 +1,10 @@
 ---
 title: "Projects"
+description: "A list of Piero's projects"
+outputs:
+- HTML
+- JSON
+- RSS
 draft: false
 ---
 

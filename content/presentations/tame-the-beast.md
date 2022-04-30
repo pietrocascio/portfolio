@@ -1,9 +1,10 @@
 ---
 title: "Tame the Beast"
+keywords:
 draft: false
 ---
 
-## Presentation name
+## Tame the Beast
 
 ![alt](//via.placeholder.com/640x150)
 
